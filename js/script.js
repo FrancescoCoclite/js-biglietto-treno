@@ -16,4 +16,7 @@ if (eta <= 17){
     risultato = (risultato - (risultato * 0.2)).toFixed(2);
     console.log(risultato);
 }
-else (eta >= 65)
+else if (eta >= 65){
+    risultato = (risultato - (risultato * 0.4)).toFixed(2);
+    console.log(risultato);
+}
