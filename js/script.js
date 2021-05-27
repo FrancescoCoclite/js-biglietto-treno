@@ -16,7 +16,7 @@ if (eta <= 17){
     risultato = (risultato - (risultato * 0.2)).toFixed(2);
     console.log(risultato);
 }
-else if (eta >= 65){
-    risultato = (risultato - (risultato * 0.4)).toFixed(2);
+else if(eta >= 65){
+    risultato =parseFloat((risultato - (risultato * 0.4)).toFixed(2)) ;
     console.log(risultato);
 }
